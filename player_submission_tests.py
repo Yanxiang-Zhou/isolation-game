@@ -37,10 +37,6 @@ def correctOpenEvalFn(yourOpenEvalFn):
 
 def beatRandom(yourAgent):
 
-    """Example test you can run
-    to make sure your AI does better
-    than random."""
-
     print("")
     try:
         r = RandomPlayer()
@@ -60,13 +56,6 @@ def beatRandom(yourAgent):
     print()
 
 def minimaxTest(yourAgent, minimax_fn):
-    """Example test to make sure
-    your minimax works, using the
-    OpenMoveEvalFunction evaluation function.
-    This can be used for debugging your code
-    with different model Board states.
-    Especially important to check alphabeta
-    pruning"""
 
     # create dummy 5x5 board
     print("Now running the Minimax test.")
